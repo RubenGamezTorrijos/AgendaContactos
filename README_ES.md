@@ -1,5 +1,5 @@
 # App Administración de Contactos
-Idioma: [English](README_EN.md)
+Idioma: [English](./README.md)
 
 Formulario de administración y búsqueda de contactos:
 Nombre, apellido, número de teléfono, correo electrónico y filtro de búsqueda por nombre y número de teléfono.
