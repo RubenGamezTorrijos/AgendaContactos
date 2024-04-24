@@ -103,3 +103,33 @@ table {
     border-radius: 10px;
     overflow: hidden;
 }
+
+/*Efecto borde movimiento al girar*/
+@keyframes rotatingBorder {
+    0% {
+        border-color: #0088FF;
+        box-shadow: 0 0 5px #0088FF;
+    }
+    25% {
+        border-color: #ff0100;
+        box-shadow: 0 0 5px #ff0100;
+    }
+    50% {
+        border-color: #ff0100;
+        box-shadow: 0 0 5px #ff0100;
+    }
+    75% {
+        border-color: #0088FF;
+        box-shadow: 0 0 5px #0088FF;
+    }
+    100% {
+        border-color: #0088FF;
+        box-shadow: 0 0 5px #0088FF;
+    }  
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=search]:focus {
+    animation: rotatingBorder 3s linear infinite;
+    border: 3px solid #0088FF; /* Color inicial, pero será animado */
+    box-shadow: 0 0 5px #0088FF; /* Glow efecto para mayor visibilidad */
+}
