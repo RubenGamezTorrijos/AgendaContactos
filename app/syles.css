@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #f0f8ff;
+}
+
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px; /* Espacio entre los formularios */
+    margin-bottom: 30px; /* Espaciado antes de la tabla */
+}
+
+.formulario-agregar, .formulario-busqueda {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.formulario-agregar {
+    flex: 80%; /* Ajusta para ocupar el 80% del espacio disponible */
+    display: flex;
+    flex-direction: column; /* Organiza los hijos en columna */
+    gap: 10px; /* Espacio entre los elementos de formulario */
+}
+
+.formulario-busqueda {
+    flex: 20%; /* Ajusta para ocupar el 20% del espacio disponible */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+input[type=search], input[type=text], input[type=email] {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 100%; /* Asegura que los elementos de entrada ocupen todo el ancho disponible */
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=search]:focus {
+    border: 2px solid #0088FF; /* Estilo para el estado de foco */
+}
+
+.formulario-agregar > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espacio entre los elementos */
+}
+
+.formulario-agregar input[type=text], 
+.formulario-agregar input[type=email] {
+    flex: 1 1 calc(20% - 10px); /* Permite a los elementos crecer pero controla su base */
+}
+
+.formulario-agregar button {
+    margin-left: auto; /* Empuja el botón hacia la derecha */
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0088FF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0077E6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+th, td {
+    background-color: white;
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0088FF;
+    color: white;
+}
+
+tr:hover {
+    background-color: #e6f2ff; /* Resalta la fila al pasar el mouse */
+}
+
+/* Asegura que los bordes de la tabla sean redondeados */
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
