@@ -107,24 +107,24 @@ table {
 /*Efecto borde movimiento al girar*/
 @keyframes rotatingBorder {
     0% {
-        border-color: #0088FF;
-        box-shadow: 0 0 5px #0088FF;
+        border-color: #ddd;
+        box-shadow: 0 0 5px #ddd;
     }
     25% {
-        border-color: #ff0100;
-        box-shadow: 0 0 5px #ff0100;
+        border-color: #DDDDDD;
+        box-shadow: 0 0 5px #DDDDDD;
     }
     50% {
-        border-color: #ff0100;
-        box-shadow: 0 0 5px #ff0100;
+        border-color: #0088FF;
+        box-shadow: 0 0 5px #0088FF;
     }
     75% {
         border-color: #0088FF;
         box-shadow: 0 0 5px #0088FF;
     }
     100% {
-        border-color: #0088FF;
-        box-shadow: 0 0 5px #0088FF;
+        border-color: #DDDDDD;
+        box-shadow: 0 0 5px #DDDDDD;
     }  
 }
 
@@ -133,3 +133,4 @@ input[type=text]:focus, input[type=email]:focus, input[type=search]:focus {
     border: 3px solid #0088FF; /* Color inicial, pero será animado */
     box-shadow: 0 0 5px #0088FF; /* Glow efecto para mayor visibilidad */
 }
+
