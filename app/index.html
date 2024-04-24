@@ -1,0 +1,47 @@
+<!--
+# Aplicación Web Formulario de Búsqueda y Agregado de Contactos.
+# Autor: Rubén Gámez Torrijos
+# Fecha publicación: 24/04/2024
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Contactos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div class="formulario-agregar">
+            <h2>Agregar contactos</h2>
+            <div>
+                <input type="text" id="nombre" placeholder="Nombre">
+                <input type="text" id="apellidos" placeholder="Apellidos">
+                <input type="text" id="numero" placeholder="Número de móvil">
+                <input type="email" id="email" placeholder="Correo electrónico">
+                <button onclick="agregarContacto()">Agregar contacto</button>
+            </div>
+        </div>
+        <div class="formulario-busqueda">
+            <h2>Búscar contactos</h2>
+            <input type="search" id="busqueda" placeholder="Buscar por nombre o número..." onkeyup="filtrarContactos()">
+        </div>
+    </div>
+    <table id="tablaContactos">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Número de móvil</th>
+                <th>Correo electrónico</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Los contactos se agregarán aquí -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
