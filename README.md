@@ -1,10 +1,12 @@
 # Contact Manager App (App Administración de Contactos)
-Formulario de administración y búsqueda de contactos:
-Nombre, Apellidos, Número de teléfono, Correo electrónico y filtro de búsqueda por nombre y número de teléfono.
+Lenguages: [Español](README.es.md)
+
+Administration and contact search form:
+First name, Last name, Phone number, Email and search filter by name and phone number.
 
 ![Formulario_Busqueda_Agregado_Contactos_HTML_CSS_JS_Personalizado](https://github.com/RubenGamezTorrijos/AgendaContactos/assets/19588354/8e1ec341-01dc-4204-8b50-0e321d5f7252)
 
-## Description
+## Description (Descripción)
 Contact Manager is a web application designed to allow users to easily manage a list of contacts. It offers functionalities to add new contacts, search existing contacts, and visually display the total number of contacts in a dynamic half-donut chart.
 
 ## Version
