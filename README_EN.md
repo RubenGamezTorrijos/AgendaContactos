@@ -1,8 +1,9 @@
 # Contact Manager App
-Lenguages: [Español](README_ES.md)
+Lenguages: [Español](./tree/main?tab=readme_es.md)
 
 Administration and contact search form:
 First name, Last name, Phone number, Email and search filter by name and phone number.
+https://github.com/RubenGamezTorrijos/AppContactManager/tree/main?tab=readme-ov-file#
 
 ![Formulario_Busqueda_Agregado_Contactos_HTML_CSS_JS_Personalizado](https://github.com/RubenGamezTorrijos/AgendaContactos/assets/19588354/8e1ec341-01dc-4204-8b50-0e321d5f7252)
 
