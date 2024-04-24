@@ -1,4 +1,4 @@
-# Contact Manager App (App Administración de Contactos)
+# Contact Manager App
 Lenguages: [Español](README.es.md)
 
 Administration and contact search form:
