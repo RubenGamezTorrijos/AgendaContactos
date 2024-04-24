@@ -125,7 +125,7 @@ table {
 }
 
 input[type=text]:focus, input[type=email]:focus, input[type=search]:focus {
-    animation: rotatingBorder 3s linear infinite;
+    animation: rotatingBorder 2s linear infinite;
     border: 3px solid #0088FF; /* Color inicial, pero será animado */
     box-shadow: 0 0 5px #0088FF; /* Glow efecto para mayor visibilidad */
 }
